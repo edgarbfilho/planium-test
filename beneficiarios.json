@@ -110,5 +110,29 @@
           "Idade": "20"
         }
       ]
+    },
+    {
+      "Dados": {
+        "QtVidas": "1",
+        "Plano": "reg1"
+      },
+      "Beneficiarios": [
+        {
+          "Nome": "Érika de Almeida",
+          "Idade": "90"
+        }
+      ]
+    },
+    {
+      "Dados": {
+        "QtVidas": "1",
+        "Plano": "reg6"
+      },
+      "Beneficiarios": [
+        {
+          "Nome": "Edgar Filho",
+          "Idade": "90"
+        }
+      ]
     }
   ]

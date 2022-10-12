@@ -30,7 +30,7 @@ for ($i=1; $i <= $_POST['qt-vidas']; $i++) {
 
     $arrayData = array_merge($arrayData, array($dados1));
     $_SESSION['msg'] = "Beneficiário(s) incluído(s) com sucesso!";
-    header("location: relatorio.php");
+    header("location: ./");
 
     $arquivo = 'beneficiarios.json';
 

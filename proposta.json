@@ -242,5 +242,59 @@
           "Idade": "20"
         }
       ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg1",
+          "nome": "Bitix Customer Plano 1",
+          "codigo": 1,
+          "minimo_vidas": 1,
+          "faixa1": 10,
+          "faixa2": 12,
+          "faixa3": 15
+        },
+        "1": {
+          "Total": 15
+        },
+        "QtVidas": "1",
+        "Plano": "reg1"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 15
+          },
+          "Nome": "Érika de Almeida",
+          "Idade": "90"
+        }
+      ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg6",
+          "nome": "Bitix Customer Plano 6",
+          "codigo": 6,
+          "minimo_vidas": 1,
+          "faixa1": 60,
+          "faixa2": 70,
+          "faixa3": 80
+        },
+        "1": {
+          "Total": 80
+        },
+        "QtVidas": "1",
+        "Plano": "reg6"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 80
+          },
+          "Nome": "Edgar Filho",
+          "Idade": "90"
+        }
+      ]
     }
   ]
