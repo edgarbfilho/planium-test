@@ -58,7 +58,7 @@ for ($i=1; $i <= $_POST['qt-vidas']; $i++) {
     <div class="row">
         <div class="col-sm-6 mt-3">
             <a href="./">Relatório de Novo(s) Beneficiário(s)</a><hr>
-            <h1>Incluir novo(s) Beneficiário(s):</h1>
+            <h3>Incluir novo(s) Beneficiário(s):</h3>
             <form method="post">
             Quantidade de Beneficiário(s):<br><input class="form-control" name="qt-vidas" id="qt-vidas" onchange="qtVidas()"  min="1" max="5" type="number" required><br>
 
@@ -84,7 +84,7 @@ for ($i=1; $i <= $_POST['qt-vidas']; $i++) {
     document.getElementById('qt-vidas').value='';
     function qtVidas(params) {
         var element = document.getElementById('qt-vidas');
-        document.getElementById('palco').innerHTML = '<div class="benef" id="benef"><h2>Informe o(s) Dado(s) do(s) Beneficiário(s):</h2><br></div><hr>';
+        document.getElementById('palco').innerHTML = '<div class="benef" id="benef"><h4>Informe o(s) Dado(s) do(s) Beneficiário(s):</h4><br></div><hr>';
         var benef = document.querySelector('.benef');        
         for (let index = 1; index <= element.value; index++) {            
             benef.innerHTML += "Nome:<br><input class='form-control' type='text' id='nome"+index+"' name='nome"+index+"' required><br>Idade:<br><input type='text' class='form-control' id='idade"+index+"' name='idade"+index+"' required><br>";           

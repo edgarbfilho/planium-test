@@ -209,7 +209,7 @@ fclose($file);
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 mt-3">
+        <div class="col-sm-6 mt-3">
            <a href="incluir.php">Incluir Novo(s) Beneficiário(s)</a><hr>
            <?php if (isset($_SESSION["msg"])) { ?>
                 <div class="alert alert-success">
