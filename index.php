@@ -2,21 +2,24 @@
 session_start();
 // extrai as informações do arquivo json
 $jsonBeneficiaries = file_get_contents("beneficiarios.json");
+// extrai as informações do arquivo json
 $jsonPlans = file_get_contents("plans.json");
+// extrai as informações do arquivo json
 $jsonPrices = file_get_contents("prices.json");
 // faz o decode do json e converte em array
 $arrayBeneficiaries = json_decode($jsonBeneficiaries, true);
+// faz o decode do json e converte em array
 $arrayPlans = json_decode($jsonPlans, true);
+// faz o decode do json e converte em array
 $arrayPrices = json_decode($jsonPrices, true);
-
+// mescla os arrays arrayPrices e arrayPlans
 foreach ($arrayPrices as $key => $value) {
     $arraySingle[] = array_merge($arrayPlans[$value['codigo'] -1], $arrayPrices[$key]);
 }    
-
 // echo "Array de Planos<br>";
 // var_dump($arraySingle);
 
-// REGRAS DOS PLANOS
+// REGRAS DO SISTEMA DE PALNOS DE SAÚDE
 // echo "<hr>Menor que quatro - Reg1<br>";
 for ($i=0; $i < count($arraySingle); $i++) { 
     if ($arraySingle[$i]['registro'] == 'reg1' && $arraySingle[$i]['minimo_vidas'] < 4) {       
@@ -75,46 +78,31 @@ for ($i=0; $i < count($arraySingle); $i++) {
 // var_dump($reg6PlanoMaiorDois);
 // echo "<hr>";
 
-// var_dump($reg1PlanoMenorQuatro); 
-// var_dump($arrayBeneficiaries[0]); 
-//var_dump($arrayBeneficiaries[1]['Dados']); 
-// echo $arrayBeneficiaries[0]['Dados']['Plano'];
-// echo $arrayBeneficiaries[0]['Dados']['QtVidas'];
-// echo count($arrayBeneficiaries);
-for ($i=0; $i < count($arrayBeneficiaries); $i++) {     
-     
+for ($i=0; $i < count($arrayBeneficiaries); $i++) {
     if ($arrayBeneficiaries[$i]['Dados']['Plano'] == 'reg1' && $arrayBeneficiaries[$i]['Dados']['QtVidas'] < 4) {
         array_push($arrayBeneficiaries[$i]['Dados'], $reg1PlanoMenorQuatro);        
     }
     if ($arrayBeneficiaries[$i]['Dados']['Plano'] == 'reg1' && $arrayBeneficiaries[$i]['Dados']['QtVidas'] > 3) {
-        array_push($arrayBeneficiaries[$i]['Dados'], $reg1PlanoMaiorTres);
-        
+        array_push($arrayBeneficiaries[$i]['Dados'], $reg1PlanoMaiorTres);        
     }
     if ($arrayBeneficiaries[$i]['Dados']['Plano'] == 'reg2' && $arrayBeneficiaries[$i]['Dados']['QtVidas'] > 0) {
-        array_push($arrayBeneficiaries[$i]['Dados'], $reg2PlanoMaiorUm);
-        
+        array_push($arrayBeneficiaries[$i]['Dados'], $reg2PlanoMaiorUm);        
     }
     if ($arrayBeneficiaries[$i]['Dados']['Plano'] == 'reg3' && $arrayBeneficiaries[$i]['Dados']['QtVidas'] > 0) {
-        array_push($arrayBeneficiaries[$i]['Dados'], $reg3PlanoMaiorUm);
-        
+        array_push($arrayBeneficiaries[$i]['Dados'], $reg3PlanoMaiorUm);        
     }
     if ($arrayBeneficiaries[$i]['Dados']['Plano'] == 'reg4' && $arrayBeneficiaries[$i]['Dados']['QtVidas'] > 0) {
-        array_push($arrayBeneficiaries[$i]['Dados'], $reg4PlanoMaiorUm);
-        
+        array_push($arrayBeneficiaries[$i]['Dados'], $reg4PlanoMaiorUm);        
     }
     if ($arrayBeneficiaries[$i]['Dados']['Plano'] == 'reg5' && $arrayBeneficiaries[$i]['Dados']['QtVidas'] > 0) {
-        array_push($arrayBeneficiaries[$i]['Dados'], $reg5PlanoMaiorUm);
-        
+        array_push($arrayBeneficiaries[$i]['Dados'], $reg5PlanoMaiorUm);        
     }
     if ($arrayBeneficiaries[$i]['Dados']['Plano'] == 'reg6' && $arrayBeneficiaries[$i]['Dados']['QtVidas'] == 1) {
-        array_push($arrayBeneficiaries[$i]['Dados'], $reg6PlanoIgualUm);
-        
+        array_push($arrayBeneficiaries[$i]['Dados'], $reg6PlanoIgualUm);        
     }
     if ($arrayBeneficiaries[$i]['Dados']['Plano'] == 'reg6' && $arrayBeneficiaries[$i]['Dados']['QtVidas'] > 1) {
-        array_push($arrayBeneficiaries[$i]['Dados'], $reg6PlanoMaiorDois);
-        
+        array_push($arrayBeneficiaries[$i]['Dados'], $reg6PlanoMaiorDois);        
     }
-
 }
 
 // echo "Array dos Planos Fechados<br>";
@@ -227,7 +215,6 @@ fclose($file);
                         echo "<small>Nome do Plano Escolhido:</small> ".$arrayBeneficiaries[$i]['Dados'][0]['nome']."<br>";
                         echo "<small>Idade do Beneficiário:</small> ".$arrayBeneficiaries[$i]['Beneficiarios'][$e]['Idade']." Anos<br>";
                         echo "<small>Valor do Plano:</small> R$ ".number_format($arrayBeneficiaries[$i]['Beneficiarios'][$e][0]['Valor'], 2, ',', ' ')."<br><br>";
-                        
                     }
                     echo "<small>Total:</small> R$ ".number_format($arrayBeneficiaries[$i]['Dados'][1]['Total'], 2, ',', ' ')."<hr>";
                 }
