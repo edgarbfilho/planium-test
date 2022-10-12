@@ -1,0 +1,246 @@
+[
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg1",
+          "nome": "Bitix Customer Plano 1",
+          "codigo": 1,
+          "minimo_vidas": 1,
+          "faixa1": 10,
+          "faixa2": 12,
+          "faixa3": 15
+        },
+        "1": {
+          "Total": 10
+        },
+        "QtVidas": "1",
+        "Plano": "reg1"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 10
+          },
+          "Nome": "Pedro da Silva Pinto",
+          "Idade": "10"
+        }
+      ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg1",
+          "nome": "Bitix Customer Plano 1",
+          "codigo": 1,
+          "minimo_vidas": 4,
+          "faixa1": 9,
+          "faixa2": 11,
+          "faixa3": 14
+        },
+        "1": {
+          "Total": 45
+        },
+        "QtVidas": "4",
+        "Plano": "reg1"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 9
+          },
+          "Nome": "Mara Rubia de Asiss",
+          "Idade": "10"
+        },
+        {
+          "0": {
+            "Valor": 11
+          },
+          "Nome": "Carlos de Asiss",
+          "Idade": "20"
+        },
+        {
+          "0": {
+            "Valor": 11
+          },
+          "Nome": "Maria Helena de Asiss",
+          "Idade": "30"
+        },
+        {
+          "0": {
+            "Valor": 14
+          },
+          "Nome": "Bruno de Asiss",
+          "Idade": "50"
+        }
+      ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg2",
+          "nome": "Bitix Customer Plano 2",
+          "codigo": 2,
+          "minimo_vidas": 1,
+          "faixa1": 20,
+          "faixa2": 30,
+          "faixa3": 40
+        },
+        "1": {
+          "Total": 20
+        },
+        "QtVidas": "1",
+        "Plano": "reg2"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 20
+          },
+          "Nome": "Pedro Calixto",
+          "Idade": "10"
+        }
+      ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg3",
+          "nome": "Bitix Customer Plano 3",
+          "codigo": 3,
+          "minimo_vidas": 1,
+          "faixa1": 30,
+          "faixa2": 40,
+          "faixa3": 50
+        },
+        "1": {
+          "Total": 30
+        },
+        "QtVidas": "1",
+        "Plano": "reg3"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 30
+          },
+          "Nome": "João Rosa",
+          "Idade": "10"
+        }
+      ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg4",
+          "nome": "Bitix Customer Plano 4",
+          "codigo": 4,
+          "minimo_vidas": 1,
+          "faixa1": 40,
+          "faixa2": 50,
+          "faixa3": 60
+        },
+        "1": {
+          "Total": 40
+        },
+        "QtVidas": "1",
+        "Plano": "reg4"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 40
+          },
+          "Nome": "Marcella de Moura",
+          "Idade": "10"
+        }
+      ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg5",
+          "nome": "Bitix Customer Plano 5",
+          "codigo": 5,
+          "minimo_vidas": 1,
+          "faixa1": 50,
+          "faixa2": 60,
+          "faixa3": 70
+        },
+        "1": {
+          "Total": 50
+        },
+        "QtVidas": "1",
+        "Plano": "reg5"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 50
+          },
+          "Nome": "Bruno Correia de Moraes",
+          "Idade": "10"
+        }
+      ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg6",
+          "nome": "Bitix Customer Plano 6",
+          "codigo": 6,
+          "minimo_vidas": 1,
+          "faixa1": 60,
+          "faixa2": 70,
+          "faixa3": 80
+        },
+        "1": {
+          "Total": 60
+        },
+        "QtVidas": "1",
+        "Plano": "reg6"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 60
+          },
+          "Nome": "Ricardo Santana",
+          "Idade": "10"
+        }
+      ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg6",
+          "nome": "Bitix Customer Plano 6",
+          "codigo": 6,
+          "minimo_vidas": 2,
+          "faixa1": 55,
+          "faixa2": 65,
+          "faixa3": 75
+        },
+        "1": {
+          "Total": 120
+        },
+        "QtVidas": "2",
+        "Plano": "reg6"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 55
+          },
+          "Nome": "Humberto Barros de Melo",
+          "Idade": "10"
+        },
+        {
+          "0": {
+            "Valor": 65
+          },
+          "Nome": "bbb",
+          "Idade": "20"
+        }
+      ]
+    }
+  ]
