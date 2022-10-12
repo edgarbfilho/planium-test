@@ -9,12 +9,6 @@ $arrayBeneficiaries = json_decode($jsonBeneficiaries, true);
 $arrayPlans = json_decode($jsonPlans, true);
 $arrayPrices = json_decode($jsonPrices, true);
 
-// echo "Array de Beneficiários<br>";
-// var_dump($arrayBeneficiaries);
-// echo "<hr>";
-// var_dump($arrayPlans);
-// var_dump($arrayPrices);
-
 foreach ($arrayPrices as $key => $value) {
     $arraySingle[] = array_merge($arrayPlans[$value['codigo'] -1], $arrayPrices[$key]);
 }    

@@ -25,18 +25,9 @@ for ($i=1; $i <= $_POST['qt-vidas']; $i++) {
                 array_push($dados1['Beneficiarios'], $dados2);        
 }
 
-
-
-
-
-
-
-//$dados1 = array_merge($dados1[0], $dados2);
 //var_dump($dados1);
-var_dump($dados1);
 //var_dump($dados2);
 
-    
     $arrayData = array_merge($arrayData, array($dados1));
     $_SESSION['msg'] = "Beneficiário(s) incluído(s) com sucesso!";
     header("location: relatorio.php");
@@ -102,6 +93,3 @@ var_dump($dados1);
 </script>
 </body>
 </html>
-
-
-
