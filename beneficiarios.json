@@ -134,5 +134,21 @@
           "Idade": "90"
         }
       ]
+    },
+    {
+      "Dados": {
+        "QtVidas": "2",
+        "Plano": "reg4"
+      },
+      "Beneficiarios": [
+        {
+          "Nome": "Allan Couto",
+          "Idade": "90"
+        },
+        {
+          "Nome": "Brenda Couto",
+          "Idade": "20"
+        }
+      ]
     }
   ]

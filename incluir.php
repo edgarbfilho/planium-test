@@ -60,7 +60,7 @@ for ($i=1; $i <= $_POST['qt-vidas']; $i++) {
             <a href="./">Relatório de Novo(s) Beneficiário(s)</a><hr>
             <h3>Incluir novo(s) Beneficiário(s):</h3>
             <form method="post">
-            Quantidade de Beneficiário(s):<br><input class="form-control" name="qt-vidas" id="qt-vidas" onchange="qtVidas()"  min="1" max="5" type="number" required><br>
+            Quantidade de Beneficiário(s):<br><input class="form-control" name="qt-vidas" id="qt-vidas" onchange="qtVidas()" min="1" max="150" type="number" placeholder="Informe um número" required><br>
 
             <div class="palco" id="palco"></div>
 

@@ -296,5 +296,39 @@
           "Idade": "90"
         }
       ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg4",
+          "nome": "Bitix Customer Plano 4",
+          "codigo": 4,
+          "minimo_vidas": 1,
+          "faixa1": 40,
+          "faixa2": 50,
+          "faixa3": 60
+        },
+        "1": {
+          "Total": 110
+        },
+        "QtVidas": "2",
+        "Plano": "reg4"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 60
+          },
+          "Nome": "Allan Couto",
+          "Idade": "90"
+        },
+        {
+          "0": {
+            "Valor": 50
+          },
+          "Nome": "Brenda Couto",
+          "Idade": "20"
+        }
+      ]
     }
   ]
