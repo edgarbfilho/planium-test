@@ -330,5 +330,59 @@
           "Idade": "20"
         }
       ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg3",
+          "nome": "Bitix Customer Plano 3",
+          "codigo": 3,
+          "minimo_vidas": 1,
+          "faixa1": 30,
+          "faixa2": 40,
+          "faixa3": 50
+        },
+        "1": {
+          "Total": 30
+        },
+        "QtVidas": "1",
+        "Plano": "reg3"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 30
+          },
+          "Nome": "aaa",
+          "Idade": "10"
+        }
+      ]
+    },
+    {
+      "Dados": {
+        "0": {
+          "registro": "reg1",
+          "nome": "Bitix Customer Plano 1",
+          "codigo": 1,
+          "minimo_vidas": 1,
+          "faixa1": 10,
+          "faixa2": 12,
+          "faixa3": 15
+        },
+        "1": {
+          "Total": 15
+        },
+        "QtVidas": "1",
+        "Plano": "reg1"
+      },
+      "Beneficiarios": [
+        {
+          "0": {
+            "Valor": 15
+          },
+          "Nome": "aaa",
+          "Idade": "111"
+        }
+      ]
     }
   ]

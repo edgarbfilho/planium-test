@@ -88,10 +88,10 @@ fclose($file);
     // função para criar elementos dinamicamente na tela
     function qtVidas(params) {
         var element = document.getElementById('qt-vidas');
-        document.getElementById('palco').innerHTML = '<div class="benef" id="benef"><h4>Informe o(s) Dado(s) do(s) Beneficiário(s):</h4><br></div><hr>';
+        document.getElementById('palco').innerHTML = '<div class="benef" id="benef"><h4>Informe o(s) Dado(s) do(s) Beneficiário(s):</h4></div><hr>';
         var benef = document.querySelector('.benef');        
         for (let index = 1; index <= element.value; index++) {            
-            benef.innerHTML += "Nome:<br><input class='form-control' type='text' id='nome"+index+"' name='nome"+index+"' required><br>Idade:<br><input type='text' class='form-control' id='idade"+index+"' name='idade"+index+"' required><br>";           
+            benef.innerHTML += "<div class='row'><div class='col-sm-6'>Nome:<br><input class='form-control' type='text' id='nome"+index+"' name='nome"+index+"' required></div><div class='col-sm-6'>Idade:<br><input type='text' class='form-control' id='idade"+index+"' name='idade"+index+"' required></div></div>";           
         }    
     }
 </script>
