@@ -1,6 +1,5 @@
 Teste realizado por Edgar Barbosa Filho<br>
-Fone: (62) 9.8169-1538<br>
-Data: 12/10/2022<hr>
+Fone: (62) 9.8169-1538<hr>
 
 <img src="https://www.planium.io/wordpress/wp-content/uploads/2018/11/logo-Planium-06.svg" width="250" height="100">
 **[Especificações para o teste]**
